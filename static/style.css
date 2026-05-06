@@ -1,0 +1,94 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background */
+body {
+    height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+/* Glass Card */
+.card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    padding: 30px;
+    color: white;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Title */
+.card h1 {
+    margin-bottom: 20px;
+}
+
+/* Textarea */
+textarea {
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    resize: none;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+/* Controls */
+.controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input, select {
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: #ffffff;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #f1f1f1;
+}
+
+/* Output */
+.output-box {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.2);
+}
+
+.output-box p {
+    word-wrap: break-word;
+}
