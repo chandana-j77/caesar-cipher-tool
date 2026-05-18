@@ -33,6 +33,15 @@ body {
     text-align: center;
 }
 
+ul {
+    text-align: left;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+li {
+    margin: 5px 0;
+}
 /* Title */
 .card h1 {
     margin-bottom: 20px;
